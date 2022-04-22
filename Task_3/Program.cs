@@ -4,7 +4,7 @@
 int m = Promt("\nВведите значение  числа m: ");
 int n = Promt("Введите значение числа n: ");
 if (m < 0 || n < 0) System.Console.WriteLine("В качестве параметров функция принимает только неотрицательные числа");
-else System.Console.WriteLine(A(m, n));
+else System.Console.WriteLine("A(m,n) = " + A(m, n));
 
 
 int Promt(String message)
