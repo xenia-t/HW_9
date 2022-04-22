@@ -11,7 +11,7 @@ while (M <= 0) M +=1;
 EvenRow(M, N);
 
 
-   int Promt(String message)
+int Promt(String message)
 {
     Console.Write(message);
     string strValue = Console.ReadLine();
